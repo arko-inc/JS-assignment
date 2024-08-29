@@ -7,7 +7,7 @@ let firstName = "John"; lastName = "Doe"; age = 35;
 // 3
 let x = 10;
 let y = 5;
-x *= y; // x = 50
+x *= y; 
 
 // 4
 let length = 16; // number
@@ -23,8 +23,7 @@ function myFunction() {
   alert("Hello World!");
 }
 
-myFunction(); // Call the function
-
+myFunction(); // output: Hello World!
 // 6
 const personDetails = {
   name: "John",
@@ -33,12 +32,10 @@ const personDetails = {
 
 alert(`${personDetails.name} is ${personDetails.age}`); // "John is 50"
 
-// 7
-document.body.innerHTML += '<button onclick="alert(\'Button clicked!\')">Click me.</button>';
 
 // 8.1
 const cars = ["Volvo", "Jeep", "Mercedes"];
-alert(cars.length); // Alerts 3
+alert(cars.length); 
 
 // 8.2
 const Brand = ["Volvo", "Jeep", "Mercedes"];
