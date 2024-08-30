@@ -7,7 +7,7 @@ let firstName = "John"; lastName = "Doe"; age = 35;
 // 3
 let value_x = 10;
 let value_y = 5;
-x *= y; // x = 50
+x *= y; 
 
 // 4
 let length = 16; // number
