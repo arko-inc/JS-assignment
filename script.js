@@ -7,7 +7,7 @@ let firstName = "John"; lastName = "Doe"; age = 35;
 // 3
 let value_x = 10;
 let value_y = 5;
-x *= y; 
+x *= y; // x = 50
 
 // 4
 let length = 16; // number
@@ -66,8 +66,8 @@ age < 18 ? alert("Too young") : alert("Old enough");
 function celsiusToFahrenheit(celsius) {
   return (celsius * 9/5) + 32;
 }
-console.log(celsiusToFahrenheit(0)); // 32
-console.log(celsiusToFahrenheit(25)); // 77
+console.log(celsiusToFahrenheit(0)); 
+console.log(celsiusToFahrenheit(25)); 
 
 // 12
 function Even(num) {
@@ -90,8 +90,8 @@ function numfunc(arr) {
   return Math.min(arr);
 }
 
-console.log(numfunc([3, 5, 1, 9])); // 1
-console.log(numfunc([-1, -5, 0, 10])); // -5
+console.log(numfunc([3, 5, 1, 9])); 
+console.log(numfunc([-1, -5, 0, 10])); 
 
 // 15
 function vowel(str) {
@@ -107,8 +107,8 @@ function vowel(str) {
   return count;
 }
 
-console.log(vowel("hello world")); // 3
-console.log(vowel("Javascript")); // 3
+console.log(vowel("hello world")); 
+console.log(vowel("Javascript")); 
 
 // 16
 function get_first_element(arr) {
@@ -190,3 +190,4 @@ function sumArray(arr) {
 console.log(sumArray([1, 2, 3, 4])); 
 console.log(sumArray([-1, -2, -3, -4])); 
 console.log(sumArray([1.5, 2.5, 3.5])); 
+
